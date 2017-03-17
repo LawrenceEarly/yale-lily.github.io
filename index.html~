@@ -4,7 +4,7 @@ title: About
 weight: 1
 ---
 
-<center><img src="/test.jpg" alt="test image"></center>
+<img src="/test.jpg" alt="test image" align="center">
   <header class="post-header">
     <h2 class="post-title">We are the Yale LILY Group</h1>
   </header> 
