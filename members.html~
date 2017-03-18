@@ -41,7 +41,7 @@ permalink: /members/
 {% for person in site.data.members.graduate %}
     <div class ="member">
         <figure>
-            <img src="{{person.photo | prepend: site.member_photos}} ">
+            <img src="{{person.photo | prepend: site.member_photos}}">
             <figcaption>
                 <h3>
                     {% if person.title %}
@@ -66,7 +66,7 @@ permalink: /members/
 {% for person in site.data.members.undergraduate %}
     <div class ="member">
         <figure>
-            <img src="{{person.photo | prepend: site.member_photos}} ">
+            <img src="{{person.photo | prepend: site.member_photos}} " width="200" height="250">
             <figcaption>
                 <h3>
                     {% if person.title %}
