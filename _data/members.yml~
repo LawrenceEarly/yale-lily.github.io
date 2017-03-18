@@ -1,18 +1,23 @@
 faculty:
+
     - name : Dragomir Radev
       github: Yale-LILY
       url: http://web.eecs.umich.edu/~radev/
       photo: http://web.eecs.umich.edu/~radev/131007_facaward_dragomir.jpg
       email: dragomir.radev@yale.edu
       title : Professor
+
 graduate:
+
 undergraduate:
+
     - name : Jungo Kasai
       github: jungo.kasai
       url: https://jungokasai.github.io/
       photo: /photos/jungo_profile.jpg
       email: jungo.kasai@yale.edu
       title: Senior 
+
     - name : Krishnan Srinivasan  
       github: krishpop
       url: http://krishpop.xyz/

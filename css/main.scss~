@@ -51,7 +51,7 @@ $on-laptop:        800px;
 
 p {
     text-align: center;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 0px;
 }
 
 div {
