@@ -16,9 +16,10 @@ permalink: /members/
 {% for person in site.data.members.faculty %}
     <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}} ">
+    </div>
             <p>
                     {% if person.title %}
-                        {{person.name}} <br>{{ person.title }}
+                        {{person.name}} <br>{{ person.title }}<br>
                     {% else %}
                         {{ person.name }} <br>
                     {% endif %}
@@ -27,7 +28,6 @@ permalink: /members/
                     {% endif %}
                     <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
                 </p>
-    </div>
 {% endfor %}
 </div>
 <div style="clear:left;"></div> 
