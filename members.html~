@@ -26,7 +26,10 @@ permalink: /members/
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
-                    <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
+                    <!-- <a href = "mailto:{{person.email}}"> {{person.email}}</a><br> -->
+                    {% if person.github %}
+                          <a href="https://github.com/{{ person.github }}"> Github </a> <br>
+                    {% endif %}
                 </p>
     </div>
 {% endfor %}
@@ -48,7 +51,10 @@ permalink: /members/
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
-                    <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
+                    <!-- <a href = "mailto:{{person.email}}"> {{person.email}}</a><br> -->
+                    {% if person.github %}
+                          <a href="https://github.com/{{ person.github }}"> Github </a> <br>
+                    {% endif %}
                 </p>
     </div>
 {% endfor %}
@@ -61,7 +67,7 @@ permalink: /members/
 <div class = "people-list">
 {% for person in site.data.members.undergraduate %}
     <div class ="imageContainer">
-            <img src="{{person.photo | prepend: site.member_photos}} " width="130" height="130">
+            <img src="{{person.photo | prepend: site.member_photos}} " width="200" height="200">
             <p>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}<br>
@@ -71,7 +77,10 @@ permalink: /members/
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
-                    <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
+                    <!-- <a href = "mailto:{{person.email}}"> {{person.email}}</a><br> -->
+                    {% if person.github %}
+                          <a href="https://github.com/{{ person.github }}"> Github </a> <br>
+                    {% endif %}
                 </p>
     </div>
 {% endfor %}
