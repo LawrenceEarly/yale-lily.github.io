@@ -1,0 +1,49 @@
+---
+layout: page
+title: News
+permalink: /news/
+---
+
+
+  <header class="post-header">
+    <h2 class="post-title">News and Events</h1>
+  </header> 
+
+{% for term in site.data.events %}
+<div class ="row">
+
+<div style="text-align:center">
+<h3>{{term.term}}</h3>
+</div>
+</div>
+
+<table class="table table-striped table-hover">
+<tr>
+    <th> Date</th> <th> Talk</th> 
+</tr>
+{% for event in term.events %}
+    <tr>
+        <td> {{ event.date }}  </td>
+        <td>
+        </td>
+        <td> {{event.presenter}} </td>
+    </tr>
+{% endfor %}
+</table>
+{% endfor %}
+
+<style>
+#pubTable_filter{
+    display:none;
+}
+</style>
+
+<table id="pubTable" class="table table-hover"></table>
+<script>
+$(function(){
+bibtexify("reading.bib", "pubTable", {"visualization":false});}
+);
+</script>
+
+
+
