@@ -1,4 +1,4 @@
-- term: Spring 2017
+- term: Spring 2017 Talks
   events:
     - date: Mar. 6 (4:15 pm-)
       presenter: Mirella Lapata
@@ -8,7 +8,7 @@
       type: "CS Talk"
 
     - date: Feb. 17 (10:30 am-)
-      presenter: Mirella Lapata
+      presenter: Peter Stone
       website: https://www.cs.utexas.edu/~pstone/
       event_website: http://cpsc.yale.edu/event/cs-talk-peter-stone-univ-texas-austin-0
       location: "AKW 200"
