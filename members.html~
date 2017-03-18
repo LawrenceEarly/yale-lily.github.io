@@ -14,16 +14,16 @@ permalink: /members/
 <hr>
 <div class = "people-list">
 {% for person in site.data.members.faculty %}
-    <div class ="member">
-        <figure>
+    <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}} ">
-            <figcaption>
+            <p>
                 <h5>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}
                     {% else %}
                         {{ person.name }} <br>
                     {% endif %}
+            </p>
                 </h5>
                 <p>
                     {% if person.url %}
@@ -31,8 +31,6 @@ permalink: /members/
                     {% endif %}
                     <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
                 </p>
-            </figcaption>
-        </figure>
     </div>
 {% endfor %}
 </div>
@@ -41,10 +39,9 @@ permalink: /members/
 <hr>
 <div class = "people-list">
 {% for person in site.data.members.graduate %}
-    <div class ="member">
-        <figure>
+    <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}}">
-            <figcaption>
+            <p>
                 <h5>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}
@@ -52,14 +49,13 @@ permalink: /members/
                         {{ person.name }} <br>
                     {% endif %}
                 </h5>
+             </p>
                 <p>
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
                     <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
                 </p>
-            </figcaption>
-        </figure>
     </div>
 {% endfor %}
 </div>
@@ -68,9 +64,8 @@ permalink: /members/
 <div class = "people-list">
 {% for person in site.data.members.undergraduate %}
     <div class ="imageContainer">
-        <figure>
             <img src="{{person.photo | prepend: site.member_photos}} " width="127" height="149">
-            <figcaption>
+            <p>
                 <h5>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}
@@ -78,17 +73,19 @@ permalink: /members/
                         {{ person.name }} <br>
                     {% endif %}
                 </h5>
+            </p>
                 <p>
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
                     <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
                 </p>
-            </figcaption>
-        </figure>
     </div>
 {% endfor %}
 </div>
+
+
+
 <!-- {% for paper in site.data.papers.papers %}
 
 <table>
