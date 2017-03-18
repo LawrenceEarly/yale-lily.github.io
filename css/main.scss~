@@ -46,12 +46,12 @@ $on-laptop:        800px;
 .imageContainer {
     float: left;
     overflow:auto;
-    margin: 0px 50px 0px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
 p {
     text-align: center;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 50px 0px;
 }
 
 div {
