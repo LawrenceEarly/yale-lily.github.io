@@ -115,7 +115,8 @@ pre {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 30px; 
+  background-color: #0c4c92; }
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
