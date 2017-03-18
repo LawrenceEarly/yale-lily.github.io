@@ -1,7 +1,7 @@
 ---
 layout: page
-title: News
-permalink: /news/
+title: Events
+permalink: /events/
 ---
 
 
@@ -24,7 +24,13 @@ permalink: /news/
 {% for event in term.events %}
     <tr>
         <td> {{ event.date }}  </td>
-        <td> {{event.presenter}} </td>
+        <td> 
+        {% if event.website %}
+           <a href="{{event.website}}"> {{event.presenter}}</a>
+        {% else %}
+           {{event.presenter}} 
+        {% endif %}
+        </td>
         <td> {{event.location}} </td>
     </tr>
 {% endfor %}
