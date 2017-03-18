@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Events
-permalink: /events/
+title: News
+permalink: /news/
 ---
 
 
