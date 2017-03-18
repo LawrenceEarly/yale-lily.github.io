@@ -150,7 +150,7 @@ pre {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; 
-  background-color #0c4c92; }
+  background-color: #0c4c92; }
 
 .site-title {
   font-size: 30px;
@@ -160,7 +160,9 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #424242; 
+   background-color: #0c4c92; }
+
 
 .site-nav {
   float: right;
