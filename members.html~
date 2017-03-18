@@ -37,6 +37,7 @@ permalink: /members/
 </div>
 
 <h3> Graduate Students </h3>
+<hr>
 <div class = "people-list">
 {% for person in site.data.members.graduate %}
     <div class ="member">
@@ -62,11 +63,12 @@ permalink: /members/
 {% endfor %}
 </div>
 <h3> Undergraduate Students </h3>
+<hr>
 <div class = "people-list">
 {% for person in site.data.members.undergraduate %}
     <div class ="member">
         <figure>
-            <img src="{{person.photo | prepend: site.member_photos}} " width="200" height="250">
+            <img src="{{person.photo | prepend: site.member_photos}} " width="127" height="149">
             <figcaption>
                 <h3>
                     {% if person.title %}
