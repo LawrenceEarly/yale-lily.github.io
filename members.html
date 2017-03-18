@@ -10,8 +10,9 @@ permalink: /members/
   </header> 
 
 <br>
+<h3> Faculty </h3>
 <div class = "people-list">
-{% for person in site.data.members %}
+{% for person in site.data.faculty %}
     <div class ="member">
         <figure>
             <img src="{{person.photo | prepend: site.member_photos}} ">
@@ -35,6 +36,56 @@ permalink: /members/
 {% endfor %}
 </div>
 
+<h3> Graduate Students </h3>
+<div class = "people-list">
+{% for person in site.data.graduate %}
+    <div class ="member">
+        <figure>
+            <img src="{{person.photo | prepend: site.member_photos}} ">
+            <figcaption>
+                <h3>
+                    {% if person.title %}
+                        {{person.name}} <br>{{ person.title }}
+                    {% else %}
+                        {{ person.name }} <br>
+                    {% endif %}
+                </h3>
+                <p>
+                    {% if person.url %}
+                          <a href="{{ person.url }}"> Website </a> <br>
+                    {% endif %}
+                    <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
+                </p>
+            </figcaption>
+        </figure>
+    </div>
+{% endfor %}
+</div>
+<h3> Undergraduate Students </h3>
+<div class = "people-list">
+{% for person in site.data.undergraduate %}
+    <div class ="member">
+        <figure>
+            <img src="{{person.photo | prepend: site.member_photos}} ">
+            <figcaption>
+                <h3>
+                    {% if person.title %}
+                        {{person.name}} <br>{{ person.title }}
+                    {% else %}
+                        {{ person.name }} <br>
+                    {% endif %}
+                </h3>
+                <p>
+                    {% if person.url %}
+                          <a href="{{ person.url }}"> Website </a> <br>
+                    {% endif %}
+                    <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
+                </p>
+            </figcaption>
+        </figure>
+    </div>
+{% endfor %}
+</div>
 <!-- {% for paper in site.data.papers.papers %}
 
 <table>
