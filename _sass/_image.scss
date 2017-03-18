@@ -1,0 +1,79 @@
+.ny-collab{
+    float: right;
+    margin: 0px 0px 10px 30;
+    padding-left: 75px;
+    @include media-query($img-break) {
+        float: left;
+        padding-left: $spacing-unit;
+    }
+}
+
+.pub-pic{
+    float: left;
+    width: 20%;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+    padding-left: 20px;
+    @include media-query($pub-break) {
+        float: none;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        width: 100%;
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+}
+
+.seurat-banner{
+    margin-bottom: 30px;
+}
+
+
+.blk-btn
+{
+    background-color: $grey-btn;
+    color: white;
+    border-color: white !important;
+    margin-right: 5px !important;
+    &:hover{
+        color:white;
+        border: 0;
+    }
+}
+
+
+.tutorial-left{
+    float:left;
+    max-width: 50%;
+}
+
+.tutorial-right{
+    max-width: 50%;
+    float:right;
+}
+
+.map{
+    float: left;
+    clear: both;
+}
+
+#tutorial{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+.img-fix{
+    image-rendering: pixelated;
+}
+
+.col-xs-6{
+    img{
+        max-height: 210px !important;
+    }
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
