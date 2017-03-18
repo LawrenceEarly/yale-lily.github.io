@@ -12,7 +12,7 @@ permalink: /members/
 <br>
 <h3> Faculty </h3>
 <div class = "people-list">
-{% for person in site.data.faculty %}
+{% for person in site.data.members.faculty %}
     <div class ="member">
         <figure>
             <img src="{{person.photo | prepend: site.member_photos}} ">
@@ -38,7 +38,7 @@ permalink: /members/
 
 <h3> Graduate Students </h3>
 <div class = "people-list">
-{% for person in site.data.graduate %}
+{% for person in site.data.members.graduate %}
     <div class ="member">
         <figure>
             <img src="{{person.photo | prepend: site.member_photos}} ">
@@ -63,7 +63,7 @@ permalink: /members/
 </div>
 <h3> Undergraduate Students </h3>
 <div class = "people-list">
-{% for person in site.data.undergraduate %}
+{% for person in site.data.members.undergraduate %}
     <div class ="member">
         <figure>
             <img src="{{person.photo | prepend: site.member_photos}} ">
