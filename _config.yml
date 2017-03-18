@@ -11,7 +11,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   Website for the Yale LILY Group
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yale-lily.github.io" # the base hostname & protocol for your site
+url: "http://yale-lily.github.io/" # the base hostname & protocol for your site
 #twitter_username: harvardnlp
 #github_username:  harvardnlp
 
