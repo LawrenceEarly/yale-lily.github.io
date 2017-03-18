@@ -63,9 +63,10 @@ permalink: /members/
 {% endfor %}
 </div> 
 </div> 
+
+<div>
 <h3> Undergraduate Students </h3>
 <hr>
-<div>
 <div class = "people-list">
 {% for person in site.data.members.undergraduate %}
     <div class ="imageContainer">
