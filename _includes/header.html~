@@ -1,6 +1,6 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="wrapper" style="background-color: #0c4c92;">
 
     <!-- <span><img width="40px" style="margin-top:5px" src="/yale.png"></span> -->
 <!-- <span><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span> -->
