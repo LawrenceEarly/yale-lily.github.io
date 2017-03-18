@@ -116,7 +116,7 @@ pre {
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; 
-  background: #0c4c92;
+  background-color: #0c4c92;
   overflow: auto; }
   @media screen and (max-width: 800px) {
     .wrapper {
