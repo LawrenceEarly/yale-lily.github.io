@@ -43,6 +43,14 @@ $on-laptop:        800px;
     }
 }
 
+.imageContainer {
+    float: left;
+}
+
+p {
+    text-align: center;
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -50,6 +58,5 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting"
-        "image"
 ;
 
