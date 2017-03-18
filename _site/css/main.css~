@@ -115,9 +115,7 @@ pre {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: 30px; 
-  background: #0c4c92;
-  overflow: auto; }
+  padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
@@ -148,9 +146,10 @@ pre {
  * Site header
  */
 .site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; 
-  background-color: #0c4c92; }
+  position: relative; }
 
 .site-title {
   font-size: 30px;
@@ -158,11 +157,9 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; 
-  background-color: #0c4c92; }
+  float: left; }
   .site-title, .site-title:visited {
-    color: #424242; 
-   background-color: #0c4c92; }
+    color: #424242; }
 
 
 .site-nav {
