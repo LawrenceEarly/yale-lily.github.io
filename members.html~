@@ -10,10 +10,10 @@ permalink: /members/
   </header> 
 
 <br>
+<div>
 <h3> Faculty </h3>
 <hr>
 <div class = "people-list">
-<div>
 {% for person in site.data.members.faculty %}
     <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}} ">
