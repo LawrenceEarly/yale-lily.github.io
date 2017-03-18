@@ -158,7 +158,8 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left; 
+  background-color: #0c4c92; }
   .site-title, .site-title:visited {
     color: #424242; 
    background-color: #0c4c92; }
