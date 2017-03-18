@@ -46,18 +46,18 @@ $on-laptop:        800px;
 .imageContainer {
     float: left;
     overflow:auto;
+    margin: 10px 10px 10px 10px;
 }
 
 p {
     text-align: center;
+    margin: 10px 10px 10px 10px;
 }
 
 div {
     clear: right;
 }
 
-div img { margin: 10px;
-}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
