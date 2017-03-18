@@ -17,15 +17,11 @@ permalink: /members/
     <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}} ">
             <p>
-                <h5>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}
                     {% else %}
                         {{ person.name }} <br>
                     {% endif %}
-            </p>
-                </h5>
-                <p>
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
@@ -43,15 +39,11 @@ permalink: /members/
     <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}}">
             <p>
-                <h5>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}
                     {% else %}
                         {{ person.name }} <br>
                     {% endif %}
-                </h5>
-             </p>
-                <p>
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
@@ -70,15 +62,11 @@ permalink: /members/
     <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}} " width="127" height="149">
             <p>
-                <h5>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}
                     {% else %}
                         {{ person.name }} <br>
                     {% endif %}
-                </h5>
-            </p>
-                <p>
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% endif %}
