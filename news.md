@@ -6,7 +6,7 @@ permalink: /news/
 
 
   <header class="post-header">
-    <h2 class="post-title">News and Events</h1>
+    <h2 class="post-title">News and Events</h2>
   </header> 
 
 {% for term in site.data.events %}

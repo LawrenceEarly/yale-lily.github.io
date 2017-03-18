@@ -6,7 +6,7 @@ permalink: /news/
 
 
   <header class="post-header">
-    <h2 class="post-title">News and Events</h1>
+    <h2 class="post-title">News and Events</h2>
   </header> 
 
 {% for term in site.data.events %}
@@ -19,14 +19,13 @@ permalink: /news/
 
 <table class="table table-striped table-hover">
 <tr>
-    <th> Date</th> <th> Talk</th> 
+    <th> Date</th> <th> Talk</th> <th> Location </th>
 </tr>
 {% for event in term.events %}
     <tr>
         <td> {{ event.date }}  </td>
-        <td>
-        </td>
         <td> {{event.presenter}} </td>
+        <td> {{event.location}} </td>
     </tr>
 {% endfor %}
 </table>
@@ -39,11 +38,6 @@ permalink: /news/
 </style>
 
 <table id="pubTable" class="table table-hover"></table>
-<script>
-$(function(){
-bibtexify("reading.bib", "pubTable", {"visualization":false});}
-);
-</script>
 
 
 
