@@ -34,7 +34,7 @@ permalink: /members/
     </div>
 {% endfor %}
 </div>
-<div style="clear:both;"></div> 
+<div style="clear:right;"></div> 
 
 <h3> Graduate Students </h3>
 <hr>
@@ -61,7 +61,7 @@ permalink: /members/
 {% endfor %}
 </div> 
 
-<div style="clear:both;"></div> 
+<div style="clear:right;"></div> 
 
 <h3> Undergraduate Students </h3>
 <hr>
