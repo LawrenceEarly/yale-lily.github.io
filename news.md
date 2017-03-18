@@ -19,14 +19,13 @@ permalink: /news/
 
 <table class="table table-striped table-hover">
 <tr>
-    <th> Date</th> <th> Talk</th> 
+    <th> Date</th> <th> Talk</th> <th> Location </th>
 </tr>
 {% for event in term.events %}
     <tr>
         <td> {{ event.date }}  </td>
-        <td>
-        </td>
         <td> {{event.presenter}} </td>
+        <td> {{event.location}} </td>
     </tr>
 {% endfor %}
 </table>
