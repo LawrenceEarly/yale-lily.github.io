@@ -12,7 +12,7 @@ permalink: /members/
 <br>
 <div class = "people-list">
 {% for person in site.data.members %}
-    <div class ="member ">
+    <div class ="member">
         <figure>
             <img src="{{person.photo | prepend: site.member_photos}} ">
             <figcaption>

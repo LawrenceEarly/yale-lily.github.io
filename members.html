@@ -24,12 +24,8 @@ permalink: /members/
                     {% endif %}
                 </h3>
                 <p>
-                    {% if person.addinfo1 %}
-                        {{ person.addinfo1 }} <br>
-                    {% endif %}
-                    {{ person.degree }} <br>{{ person.university }}<br>
-                    {% if person.addinfo2 %}
-                        {{ person.addinfo2 }} <br>
+                    {% if person.url %}
+                        {{ person.url }} <br>
                     {% endif %}
                     <a href = "mailto:{{person.email}}"> {{person.email}}</a><br>
                 </p>
