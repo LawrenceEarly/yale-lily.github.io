@@ -11,6 +11,7 @@ permalink: /members/
 
 <br>
 <h3> Faculty </h3>
+<hr>
 <div class = "people-list">
 {% for person in site.data.members.faculty %}
     <div class ="member">
