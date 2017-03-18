@@ -53,7 +53,7 @@ p {
 }
 
 div {
-    clear: both;
+    clear: right;
 }
 
 
