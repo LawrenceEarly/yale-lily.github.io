@@ -61,7 +61,7 @@ permalink: /members/
 <div class = "people-list">
 {% for person in site.data.members.undergraduate %}
     <div class ="imageContainer">
-            <img src="{{person.photo | prepend: site.member_photos}} " width="130" height="130">
+            <img src="{{person.photo | prepend: site.member_photos}} " width="200" height="200">
             <p>
                     {% if person.title %}
                         {{person.name}} <br>{{ person.title }}<br>
