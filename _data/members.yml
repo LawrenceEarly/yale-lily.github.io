@@ -1,9 +1,6 @@
-- group : Faculty
-  people :
-    - 
-    - name : Dragomir Radev
-      github: Yale-LILY
-      url: "http://web.eecs.umich.edu/~radev/"
-      photo: "http://web.eecs.umich.edu/~radev/131007_facaward_dragomir.jpg"
-      title : Professor
-- group : Graduate Students
+- name : Dragomir Radev
+github: Yale-LILY
+url: "http://web.eecs.umich.edu/~radev/"
+photo: "http://web.eecs.umich.edu/~radev/131007_facaward_dragomir.jpg"
+email: dragomir.radev@yale.edu
+title : Professor
