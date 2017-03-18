@@ -13,6 +13,7 @@ permalink: /members/
 <h3> Faculty </h3>
 <hr>
 <div class = "people-list">
+<div>
 {% for person in site.data.members.faculty %}
     <div class ="imageContainer">
             <img src="{{person.photo | prepend: site.member_photos}} ">
@@ -33,8 +34,10 @@ permalink: /members/
                 </p>
     </div>
 {% endfor %}
-</div> <br>
+</div>
+</div> 
 
+<div>
 <h3> Graduate Students </h3>
 <hr>
 <div class = "people-list">
@@ -58,7 +61,8 @@ permalink: /members/
                 </p>
     </div>
 {% endfor %}
-</div> <br>
+</div> 
+</div> 
 <h3> Undergraduate Students </h3>
 <hr>
 <div class = "people-list">
@@ -82,6 +86,7 @@ permalink: /members/
                 </p>
     </div>
 {% endfor %}
+</div>
 </div>
 
 

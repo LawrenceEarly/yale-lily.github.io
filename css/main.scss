@@ -52,6 +52,9 @@ p {
     text-align: center;
 }
 
+div {
+    clear: left;
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
