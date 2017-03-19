@@ -1,0 +1,6 @@
+- group: Neural Networks and NLP  
+  links:
+    - name: "Neural Networks from Scratch"
+      description: Introduction 
+      url: "http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/"
+
