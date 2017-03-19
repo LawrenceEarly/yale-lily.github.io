@@ -9,7 +9,7 @@ permalink: /internal/
     <h2 class="post-title">Internal Information</h2>
   </header> 
 
-{% for term in site.data.events %}
+{% for term in site.data.internal %}
 <div class ="row">
 
 <div style="text-align:center">
