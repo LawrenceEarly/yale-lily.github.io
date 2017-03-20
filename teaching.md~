@@ -23,7 +23,12 @@ permalink: /teaching/
 </tr>
 {% for course in term.courses %}
     <tr>
-        <td> {{ course.title }}  </td>
+        <td> 
+        {% if course.course_website %}
+           <a href="{{course.course_website}}">{{course.title}}</a>
+        {% else %}
+           {{course.title}}
+        </td>
         <td> 
         {% if course.instructor_website %}
            <a href="{{course.instructor_website}}">{{course.instructor}}</a>

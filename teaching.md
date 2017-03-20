@@ -28,6 +28,7 @@ permalink: /teaching/
            <a href="{{course.course_website}}">{{course.title}}</a>
         {% else %}
            {{course.title}}
+        {% endif %}
         </td>
         <td> 
         {% if course.instructor_website %}
