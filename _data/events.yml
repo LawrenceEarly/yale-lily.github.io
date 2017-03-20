@@ -1,5 +1,11 @@
 - term: Spring 2017 Talks
   events:
+    - date: "Apr. 19 (12:00-1:30 pm)"
+      presenter: Dragomir Radev
+      website: http://www.cs.yale.edu/homes/radev/ 
+      event_website: http://yins.yale.edu/calendar/conferences-workshops 
+      location: "3rd floor at 17 Hillhouse"
+      type: "YINS Seminar"
     - date: "Mar. 6 (4:15 pm-)"
       presenter: Mirella Lapata
       website: http://homepages.inf.ed.ac.uk/mlap/
