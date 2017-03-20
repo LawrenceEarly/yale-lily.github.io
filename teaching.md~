@@ -1,37 +1,37 @@
 ---
 layout: page
-title: News
-permalink: /news/
+title: Teaching
+permalink: /teaching/
 ---
 
 
   <header class="post-header">
-    <h2 class="post-title">News and Events</h2>
+    <h2 class="post-title">Teaching at Yale</h2>
   </header> 
 
-{% for term in site.data.events %}
+{% for term in site.data.courses %}
 <div class ="row">
 
 <div style="text-align:center">
-<h3>{{term.term}}</h3>
+<h3>Courses in {{term.term}}</h3>
 </div>
 </div>
 
 <table class="table table-striped table-hover">
 <tr>
-    <th> Date</th> <th> Talk</th> <th> Location </th>
+    <th> Title </th> <th> Instructor</th> <th> Location and Time </th>
 </tr>
-{% for event in term.events %}
+{% for course in term.courses %}
     <tr>
-        <td> {{ event.date }}  </td>
+        <td> {{ course.title }}  </td>
         <td> 
-        {% if event.website %}
-           <a href="{{event.event_website}}">{{event.type}}</a> by <a href="{{event.website}}"> {{event.presenter}}</a>
+        {% if course.instructor_website %}
+           <a href="{{course.instructor_website}}">{{course.instructor}}</a>
         {% else %}
-           <a href="{{event.event_website}}">{{event.type}}</a> by {{event.presenter}} 
+           {{course.instructor}}
         {% endif %}
         </td>
-        <td> {{event.location}} </td>
+        <td> {{course.time}} at {{course.location}} </td>
     </tr>
 {% endfor %}
 </table>
