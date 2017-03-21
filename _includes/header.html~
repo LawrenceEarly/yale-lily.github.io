@@ -1,4 +1,3 @@
-<header class="site-header" style="background-color: #0c4c92;">
 
 <!--  <div class="wrapper">
 
@@ -34,7 +33,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span>
+    <a class="site-title" href="https://www.yale.edu/"><img src="/yale_header.png"></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -49,7 +48,7 @@
         {% assign sorted_pages = site.pages | sort:"title" %}
         {% for my_page in sorted_pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" style="color: white;">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
