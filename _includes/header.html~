@@ -17,7 +17,7 @@
         </span>
       </div>
 
-      <div class="trigger">
+      <div class="trigger" onclick="void(0)">
         {% assign sorted_pages = site.pages | sort:"title" %}
         {% for my_page in sorted_pages %}
           {% if my_page.title %}
