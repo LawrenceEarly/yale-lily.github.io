@@ -27,14 +27,14 @@
 .site-nav {
     float: right;
     line-height: 56px;
-    background-color: 
+    background-color: #0c4c92;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: "black";
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
