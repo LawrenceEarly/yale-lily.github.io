@@ -6,6 +6,12 @@
       event_website: http://yins.yale.edu/calendar/conferences-workshops 
       location: "3rd floor at 17 Hillhouse"
       type: "YINS Seminar"
+    - date: "Apr. 3 (4:00 pm-)"
+      presenter: Mark Dredze
+      website: http://www.cs.jhu.edu/~mdredze/
+      event_website: http://cpsc.yale.edu/event/cs-talk-mark-dredze-johns-hopkins-university
+      location: "AKW 200"
+      type: "CS Talk"
     - date: "Mar. 6 (4:15 pm-)"
       presenter: Mirella Lapata
       website: http://homepages.inf.ed.ac.uk/mlap/
