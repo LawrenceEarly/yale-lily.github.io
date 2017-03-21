@@ -47,7 +47,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: #0c4c92;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -60,6 +60,7 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
+            color: "black";
 
             > svg {
                 width: 18px;
