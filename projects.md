@@ -19,7 +19,7 @@ permalink: /projects/
 
 <table class="table table-striped table-hover">
 <tr>
-    <th> Topic </th> <th> Description </th> <th> Members </th>
+    <th> Topic </th> <th> Members </th>
 </tr>
 {% for project in term.projects %}
     <tr>
@@ -29,9 +29,6 @@ permalink: /projects/
         {% else %}
            {{project.topic}}
         {% endif %}
-        </td>
-        <td> 
-            {{project.description}}
         </td>
         <td> {{project.members}} </td>
     </tr>

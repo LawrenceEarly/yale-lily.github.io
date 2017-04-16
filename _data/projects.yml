@@ -10,5 +10,8 @@
   projects:
     - topic: "Interpreting Metaphors Using Lessons Drawn from Psychology"
       members: "Daniel Keller"
-      description: "Interpret metaphors." 
+    - topic: "Web Application for Generating Image Descriptions Using Natural Language Processing and Computer Vision Techniques"
+      members: "Adam Zucker"
+    - topic: "Humorous Caption Generation"
+      members: "Rachel Prince"
 
