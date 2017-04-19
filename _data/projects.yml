@@ -28,3 +28,7 @@
       members: "Micah Rosales"
     - topic: "Cross-lingual Word Embeddings"
       members: "Jungo Kasai"
+    - topic: "Graph-based Neural Multi-Doc Summarization"
+      members: "Michihiro Yasunaga"
+    - topic: "Neural Multi-Doc Summarization"
+      members: "Krishnan Srinivasan"
