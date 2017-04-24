@@ -14,6 +14,44 @@ presentations:
         - time: TBA
           title: "Humorous Caption Generation"
           presenter: "Rachel Prince"
+        - time: TBA 
+          title: "Improving Graph Representations of Document Clusters in MDS"
+          presenter: "Kshitijh Meelu"
+        - title: "Neural network-based text generation for the New Yorker Caption Contest"
+          time: TBA
+          presenter: "Dan Friedman"
+        - title: "Detecting Humor in New Yorker Cartoon Captions"
+          presenter: "Hari Anbarasu"
+        - title: "Applied Generative Models for Creating Humorous Photo Captions"
+          time: TBA
+          presenter: "Tyler Dohrn"
+        - title: "Text Mining to Find Interactions between Political Contributions and Political Speech"
+          time: TBA
+          presenter: "Lincoln Swaine-Moore"
+        - title: "Classifying Viewpoints: Using NLP to quantify differences between news sources"
+          time: TBA
+          presenter: "Micah Rosales"
+        - title: "Cross-lingual Word Embeddings"
+          time: TBA
+          presenter: "Jungo Kasai"
+        - title: "Graph-based Neural Multi-Doc Summarization"
+          time: TBA
+          presenter: "Michihiro Yasunaga"
+        - title: "Neural Multi-Doc Summarization"
+          time: TBA
+          presenter: "Krishnan Srinivasan"
+        - title: "Generating Three-Dimensional Crosswords as a Weighted Constraint Satisfaction Problem"
+          time: TBA
+          presenter: "Michael Menz"
+        - title: "Invited Talk: From Text to SQL with Deep Learning"
+          time: TBA
+          presenter: "Catherine Finegan-Dollak"
+        - title: "Guest Talk: Word Alignment with a Pivot Language"
+          time: TBA
+          presenter: "Tom McCoy"
+        - title: "Guest Talk: TAG Parsing with Neural Networks and Distributed Representations"
+          time: TBA
+          presenter: "Jungo Kasai"
 
 meetings:
     - term: Spring 2017 LILY Meetings
