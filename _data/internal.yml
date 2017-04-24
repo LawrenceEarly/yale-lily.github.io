@@ -1,9 +1,19 @@
 presentations: 
-    - term: Spring 2017 End-of-Term Presentations (Friday April 28 9:00-13:00 at Room 000, AKW)
+    - term: Spring 2017 End-of-Term Presentations 
+    - place: Friday April 28 9:00-13:00 at Room 000, AKW
       presentations:
         - time: 9:00-9:10
           title: "Welcome and Introduction"
           presenter: "Dragomir Radev"
+        - time: TBA
+          title: "Interpreting Metaphors Using Lessons Drawn from Psychology"
+          presenter: "Daniel Keller"
+        - time: TBA
+          title: "Web Application for Generating Image Descriptions Using Natural Language Processing and Computer Vision Techniques"
+          presenter: "Adam Zucker"
+        - time: TBA
+          title: "Humorous Caption Generation"
+          presenter: "Rachel Prince"
 
 meetings:
     - term: Spring 2017 LILY Meetings
