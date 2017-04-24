@@ -8,8 +8,40 @@ permalink: /internal/
   <header class="post-header">
     <h2 class="post-title">Internal Information</h2>
   </header> 
+{% for term in site.data.internal.presentations %}
+<div class ="row">
 
-{% for term in site.data.internal %}
+<div style="text-align:center">
+<h3>{{term.term}}</h3>
+</div>
+</div>
+
+<table class="table table-striped table-hover">
+<tr>
+    <th> Time </th> <th> Presenter</th> 
+</tr>
+{% for presentation in term.presentations %}
+    <tr>
+        <td> {{ presentation.time }}  </td>
+        <td> 
+           {{presentation.presenter}}
+        </td>
+    </tr>
+{% endfor %}
+</table>
+{% endfor %}
+
+<style>
+#pubTable_filter{
+    display:none;
+}
+</style>
+
+<table id="pubTable" class="table table-hover"></table>
+
+
+
+{% for term in site.data.internal.meetings %}
 <div class ="row">
 
 <div style="text-align:center">
