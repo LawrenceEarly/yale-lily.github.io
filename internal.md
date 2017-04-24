@@ -12,8 +12,10 @@ permalink: /internal/
 <div class ="row">
 
 <div style="text-align:center">
-<h3>{{term.term}}</h3>
-<h3>{{term.place}}</h3>
+<h3>
+{{term.term}}
+{{term.place}}
+</h3>
 </div>
 </div>
 
@@ -50,7 +52,6 @@ permalink: /internal/
 <div style="text-align:center">
 <h3>
 {{term.term}}
-{{term.place}}
 </h3>
 </div>
 </div>
