@@ -14,10 +14,12 @@ permalink: /internal/
 <div style="text-align:center">
 <h3>
 {{term.term}}
-{{term.place}}
 </h3>
 </div>
 </div>
+<h4>
+{{term.place}}
+</h4>
 
 <table class="table table-striped table-hover">
 <tr>
