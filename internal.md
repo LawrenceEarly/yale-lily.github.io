@@ -14,8 +14,10 @@ permalink: /internal/
 <div style="text-align:center">
 <h3>
 {{term.term}}
-{{term.place}}
 </h3>
+<h4>
+{{term.place}}
+</h4>
 </div>
 </div>
 
@@ -25,8 +27,9 @@ permalink: /internal/
 </tr>
 {% for presentation in term.presentations %}
     <tr>
-        <td> {{ presentation.time }}  </td>
+        <td> {{ presentation.time}}  </td>
         <td> 
+            {{ presentation.title}} 
         </td>
         <td> 
            {{presentation.presenter}}
