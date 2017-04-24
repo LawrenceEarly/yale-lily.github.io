@@ -35,9 +35,9 @@ presentations:
         - title: "Cross-lingual Word Embeddings"
           time: TBA
           presenter: "Jungo Kasai"
+          url: "https://jungokasai.github.io/"
         - title: "Graph-based Neural Multi-Doc Summarization"
           time: TBA
-          url: "https://jungokasai.github.io/"
           presenter: "Michihiro Yasunaga"
         - title: "Neural Multi-Doc Summarization"
           time: TBA
