@@ -32,7 +32,11 @@ permalink: /internal/
             {{ presentation.title}} 
         </td>
         <td> 
-           {{presentation.presenter}}
+          {% if presentation.url %}
+          <a href="{{ presentation.url }}"> {{presentation.presenter}}</a> 
+          {% else %}
+          {{presentation.presenter}}
+          {% endif %}
         </td>
     </tr>
 {% endfor %}

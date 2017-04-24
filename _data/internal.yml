@@ -5,6 +5,7 @@ presentations:
         - time: 9:00-9:10
           title: "Welcome and Introduction"
           presenter: "Dragomir Radev"
+          url: "http://www.cs.yale.edu/homes/radev/"
         - time: TBA
           title: "Interpreting Metaphors Using Lessons Drawn from Psychology"
           presenter: "Daniel Keller"
@@ -36,6 +37,7 @@ presentations:
           presenter: "Jungo Kasai"
         - title: "Graph-based Neural Multi-Doc Summarization"
           time: TBA
+          url: "https://jungokasai.github.io/"
           presenter: "Michihiro Yasunaga"
         - title: "Neural Multi-Doc Summarization"
           time: TBA
@@ -52,6 +54,7 @@ presentations:
         - title: "Guest Talk: TAG Parsing with Neural Networks and Distributed Representations"
           time: TBA
           presenter: "Jungo Kasai"
+          url: "https://jungokasai.github.io/"
 
 meetings:
     - term: Spring 2017 LILY Meetings
