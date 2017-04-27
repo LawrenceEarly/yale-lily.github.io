@@ -52,14 +52,17 @@ presentations:
         - title: "Graph-based Neural Multi-Doc Summarization"
           time: 12:40-12:50
           presenter: "Michihiro Yasunaga"
-        - title: "Guest Talk: TAG Parsing with Neural Networks and Distributed Representations"
+        - title: "Cross-lingual Word Embeddings"
           time: 12:50-13:00
           presenter: "Jungo Kasai"
           url: "https://jungokasai.github.io/"
-        - title: "Cross-lingual Word Embeddings"
+        - title: "Guest Talk: TAG Parsing with Neural Networks and Distributed Representations"
           time: 13:00-13:10
           presenter: "Jungo Kasai"
           url: "https://jungokasai.github.io/"
+        - title: "AAN+"
+          time: 13:10-13:20
+          presenter: "Jay Hou and Clark Xie"
 
 meetings:
     - term: Spring 2017 LILY Meetings
