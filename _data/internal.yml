@@ -39,10 +39,13 @@ presentations:
         - title: "Generating Three-Dimensional Crosswords as a Weighted Constraint Satisfaction Problem"
           time: 11:50-12:00
           presenter: "Michael Menz"
-        - title: "What's in a name? What language can tell us about the nutritional breakdown of branded food products
+        - title: "Guest Talk: What's in a name? What language can tell us about the nutritional breakdown of branded food products"
 "
           time: 12:00-12:10
           presenter: "Sarah Gross"
+        - title: "Guest Talk: Distributionally Learnable Context-Free Grammars"
+          time: 12:10-12:20
+          presenter: "Yiding Hao"
         - title: "Neural Multi-Doc Summarization"
           time: 12:20-12:30
           presenter: "Krishnan Srinivasan"
