@@ -30,9 +30,9 @@ presentations:
         - title: "Classifying Viewpoints: Using NLP to quantify differences between news sources"
           time: 10:50-11:00
           presenter: "Micah Rosales"
-        - time: 11:30-11:40
-          title: "Web Application for Generating Image Descriptions Using Natural Language Processing and Computer Vision Techniques"
-          presenter: "Adam Zucker"
+        - title: "AAN+"
+          time: 11:30-11:40
+          presenter: "Jay Hou and Clark Xie"
         - time: 11:40-11:50
           title: "Interpreting Metaphors Using Lessons Drawn from Psychology"
           presenter: "Daniel Keller"
@@ -62,9 +62,9 @@ presentations:
           time: 13:00-13:10
           presenter: "Jungo Kasai"
           url: "https://jungokasai.github.io/"
-        - title: "AAN+"
-          time: 13:10-13:20
-          presenter: "Jay Hou and Clark Xie"
+        - time: 13:10-13:20
+          title: "Web Application for Generating Image Descriptions Using Natural Language Processing and Computer Vision Techniques"
+          presenter: "Adam Zucker"
 
 meetings:
     - term: Spring 2017 LILY Meetings
