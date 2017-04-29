@@ -17,38 +17,32 @@ undergraduate:
       photo: /photos/jungo_profile.jpg
       email: jungo.kasai@yale.edu
       title: Senior 
-
     - name : Krishnan Srinivasan  
       github: krishpop
       url: http://krishpop.xyz/
       photo: /photos/krishnan_profile.jpg
       email: krishnan.srinivasan@yale.edu
       title: Senior 
-
     - name: Adam Zucker
       github: adamzu
       email: adam.zucker@yale.edu
       photo: /photos/adam_profile.jpg
       title: Senior
-
     - name: Rachel Prince
       github: rachaprince 
       email: rachel.prince@yale.edu
       photo: /photos/rachel_profile.jpg
       title: Senior
-
     - name: Kshitijh Meelu
       github: kmeelu
       email: kshitijh.meelu@yale.edu
       photo: /photos/kshitijh_profile.jpg
       title: Senior
-
     - name : Michihiro Yasunaga
       github: michiyasunaga
       email: michihiro.yasunaga@yale.edu
       photo: /photos/michi_profile.jpg
       title: Sophomore
-
     - name: Daniel Keller
       github: dankeller101
       photo: /photos/daniel_profile.jpg
