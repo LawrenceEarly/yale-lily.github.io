@@ -74,17 +74,17 @@ permalink: /members/
                     {% else %}
                         {{ person.name }} <br> <br>
                     {% endif %}
+                    {% if person.github %}
+                          <a href="https://github.com/{{ person.github }}"> Github </a> <br>
+                    {% else %}
+                        <br>
+                    {% endif %}
                     {% if person.url %}
                           <a href="{{ person.url }}"> Website </a> <br>
                     {% else %}
                         <br>
                     {% endif %}
                     <!-- <a href = "mailto:{{person.email}}"> {{person.email}}</a><br> -->
-                    {% if person.github %}
-                          <a href="https://github.com/{{ person.github }}"> Github </a> <br>
-                    {% else %}
-                        <br>
-                    {% endif %}
                 </p>
     </div>
 {% endfor %}
