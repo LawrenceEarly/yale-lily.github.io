@@ -37,11 +37,19 @@ undergraduate:
       photo: /photos/rachel_profile.jpg
       title: Senior
 
+    - name: Kshitijh Meelu
+      github: kmeelu
+      email: kshitijh.meelu@yale.edu
+      photo: /photos/kshitijh_profile.jpg
+      title: Senior
+
     - name : Michihiro Yasunaga
       github: michiyasunaga
       email: michihiro.yasunaga@yale.edu
       photo: /photos/michi_profile.jpg
       title: Sophomore
-      
 
-
+    - name: Daniel Keller
+      github: dankeller101
+      photo: /photos/daniel_profile.jpg
+      title: Sophomore
