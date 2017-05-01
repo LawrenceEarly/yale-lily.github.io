@@ -47,3 +47,8 @@ undergraduate:
       github: dankeller101
       photo: /photos/daniel_profile.jpg
       title: Junior
+    - name: Lawrence Early
+      github: lawrenceearly
+      email: lawrence.early@yale.edu
+      photo: /photos/lawrence_profile.jpg
+      title: Freshman
